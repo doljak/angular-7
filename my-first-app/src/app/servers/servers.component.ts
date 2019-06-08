@@ -13,7 +13,7 @@ export class ServersComponent implements OnInit {
   serverCreationStatus:string = 'No server was created!';
   serverName:string = '';
   serverCreated:boolean = false;
-  servers:array<string> = [
+  servers:Array<string> = [
     'Test Server',
     'Test Server 2'
   ]
