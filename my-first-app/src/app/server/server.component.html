@@ -1,1 +1,3 @@
-<p>This Serve Id and {{ serverId }}, it status is {{ getStatus() }}</p>
+<p 
+  [ngStyle]="{color:getColor()}"
+  [ngClass]="{offline:serverStatus === 'offline'}">This Server Id {{serverId}} and {{ serverId }}, it status is {{ getStatus() }}</p>
